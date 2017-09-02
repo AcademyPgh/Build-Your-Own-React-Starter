@@ -4,7 +4,12 @@ My Project
 Welcome.
 
 
+Setup
+---
 
+```
+npm install
+```
 
 
 
@@ -47,3 +52,15 @@ Git:
       Every git project should have a README, so we also create the README.md file in this step. The notes you add to your README will be invaluable for reminding you how your project works later on.
 
       Open up your terminal, run the following commands, and create the following files. Then click Next to move on to the next step.
+
+npm:
+
+      In this step we add a package.json file to record our npm dependencies.
+
+      Everything we add in subsequent steps will be an npm package: Babel, Webpack, React, etc.
+
+      Creating the package.json file is as simple as running the npm init command shown below.
+
+      We also add a .gitignore file in this step. That file only has one line: node_modules. This tells git to ignore the node_modules folder. We don't need to store it in git because it can be auto-generated.
+
+      Notice that the README has changed. Since this is now an npm project, the npm install command can be used to install all dependencies. That's worth noting in the README.
