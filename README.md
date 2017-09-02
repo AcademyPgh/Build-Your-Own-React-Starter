@@ -11,7 +11,12 @@ Setup
 npm install
 ```
 
+Compile
+---
 
+```
+npm run compile
+```
 
 
 _______________________________________________________________________________
@@ -96,3 +101,9 @@ Webpack:
       loaders (module.rules): This section specifies how each file should be processed before it is combined into your bundle. We only have one loader: Babel. This converts your ES6 + JSX JavaScript into ES5 before merging it into your bundle.
 
       resolve: Where Webpack should look for files referenced by an import or require() statement. This makes it so that you can import npm packages in your code.
+
+Compile:
+
+      In the last step you added Webpack, but you didn't actually get to use it yet.
+
+      In this step you'll add an npm script called compile to your package.json. The script runs Webpack.
