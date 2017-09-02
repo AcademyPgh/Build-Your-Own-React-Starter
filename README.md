@@ -64,3 +64,13 @@ npm:
       We also add a .gitignore file in this step. That file only has one line: node_modules. This tells git to ignore the node_modules folder. We don't need to store it in git because it can be auto-generated.
 
       Notice that the README has changed. Since this is now an npm project, the npm install command can be used to install all dependencies. That's worth noting in the README.
+
+Babel:
+
+      Babel transforms the ES6 JavaScript that we will be writing into ES5 JavaScript that current browsers can understand.
+
+      Babel is particularly important for React developers because of JSX. JSX is a succinct way to write out the layout of a React component.
+
+      To use Babel we need to install Babel itself, as well as two additional packages for configuring Babel for use with ES6, ES7 and React.
+
+      The .babelrc file configures Babel to use the presets that we just installed.
