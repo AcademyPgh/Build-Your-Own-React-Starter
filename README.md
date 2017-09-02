@@ -11,7 +11,7 @@ Start the development server with this command:
 ```
 npm start
 ```
- 
+
 
 Setup
 ---
@@ -130,3 +130,32 @@ Express:
 React:  
 
       In this step you'll add the React npm package and one simple component.
+
+Review:
+
+      Hurray! Here's what you've accomplished:
+
+      You learned how to integrate multiple tools together.
+      You put together a starter project, from scratch.
+      You now have a starter project that you can use on future projects.
+      Next time you start a project, use ahfarmer/minimal-react-starter. It is exactly like the starter project you just built, so you understand every single line.
+
+      What can I do with it?
+      You can build a full-fledged React project with just these tools.
+
+      Then next step is to start writing React components.
+
+      If you are still learning, I strongly encourage you to start your project with a minimal starter like this one.
+
+      Even if your project requires more tools, try to build the first few React components simply. Use hard-coded data if you have to. Skip Flux at the beginning. This way you will make progress towards your goal without overwhelm.
+
+      What's missing?
+      A bunch of stuff you may or may not need:
+
+      CSS processor(s)
+      HMR / Auto Reload
+      Routing
+      Flux/Redux/MobX
+      Server-side rendering
+      Database
+      AJAX / Networking
