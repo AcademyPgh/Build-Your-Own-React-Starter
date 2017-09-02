@@ -3,6 +3,15 @@ My Project
 
 Welcome.
 
+Usage
+---
+
+Start the development server with this command:
+
+```
+npm start
+```
+ 
 
 Setup
 ---
@@ -117,4 +126,7 @@ Express:
       server.js is server-side JavaScript. You can run it with the node server.js command. In this step you will also add a start script to run the server.
 
       You will create www/index.html as your first web page. Express is configured to serve all the files in that folder.
-      
+
+React:  
+
+      In this step you'll add the React npm package and one simple component.
