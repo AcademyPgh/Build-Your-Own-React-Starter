@@ -107,3 +107,14 @@ Compile:
       In the last step you added Webpack, but you didn't actually get to use it yet.
 
       In this step you'll add an npm script called compile to your package.json. The script runs Webpack.
+
+Express:
+
+      A React development environment needs some way to show your app in a browser. That means you'll need a server. In this step you'll be setting up Express as your server.
+
+      The main file added here is server.js. That file will run an Express server, which will run Webpack. Webpack will re-run any time you change one of your JavaScript files.
+
+      server.js is server-side JavaScript. You can run it with the node server.js command. In this step you will also add a start script to run the server.
+
+      You will create www/index.html as your first web page. Express is configured to serve all the files in that folder.
+      
